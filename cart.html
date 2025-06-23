@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="logo"><img src="yeyo-publimas-logo.webp" alt="Logo" style="height:25px;"></a>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html" class="active">Checkout</a>
+            <a href="signin.html" class="right">Login/Sign Up</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="cart-container">
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be loaded here -->
+            </div>
+            
+            <div class="cart-summary">
+                <h3>Total: $<span id="totalPrice">0.00</span></h3>
+                <button>Proceed to Checkout</button>
+                <a href="products.html">Continue Shopping</a>
+                
+            </div>
+        </div>
+    </main>
+<footer>
+    <p>copyright&reg;© 2024 Game Store. All rights reserved.</p>
+</footer>
+
+
+<script src="cart.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
