@@ -97,19 +97,33 @@ All components of the website were tested, including:
 ## **Folder Structure**
 
 ├── index.html
+
 ├── aboutus.html
+
 ├── products.html
+
 ├── cart.html
+
 ├── signin.html
+
 ├── ProductDescription.html
+
 ├── cart.js
+
 ├── script.js
+
 ├── assets/
+
 │ ├── images (webp, jpg, png)
+
 │ ├── style.css
+
 ├── backend/
+
 │ ├── signin_process.php
+
 │ ├── signup_process.php
+
 
 ## **Deployment**
 
