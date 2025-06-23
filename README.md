@@ -134,7 +134,5 @@ All components of the website were tested, including:
 ## **Author**
 
 Farouq Hassan  
-Student ID: 21110528  
-Section: 3  
 HTU - Website Design & Development  
 Fall 2023–2024
